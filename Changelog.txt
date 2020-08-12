@@ -33,33 +33,27 @@ d4a09e2 Vendor: bump to 8.5.7 (first public release)
    * external/pulse
 3cf5ef5 Pulse: default to Fading blocks [1/2]
 
+====================
+     08-10-2020
+====================
+
+
    * frameworks/native
 f7e13e8 touch response optimizations
 
    * lineage/hudson
 14f1496 hudson: Ship Pixel 3/3 XL (blueline/crosshatch)
 
-   * packages/services/Telephony
-ddc7879 PhoneInterfaceManager: Force network to catch LTE on suspend state actions
-
-====================
-     08-10-2020
-====================
-
-
    * lineage/wiki
 0a6a476 wiki: Add Galaxy A7 2016 (a7xelte).
+
+   * packages/services/Telephony
+ddc7879 PhoneInterfaceManager: Force network to catch LTE on suspend state actions
 
 ====================
      08-09-2020
 ====================
 
-
-   * hardware/qcom-caf/sm8250/display
-4ab176b Add C2D_COLOR_FORMAT_420_P010 to C2D_YUV_FORMAT
-
-   * packages/apps/LineageParts
-414d466 Hide button settings from search
 
    * packages/apps/Messaging
 f90e549 Messaging: Fix quick reply choices on wearable devices
@@ -72,6 +66,12 @@ f90e549 Messaging: Fix quick reply choices on wearable devices
 ====================
 
 
+   * hardware/qcom-caf/sm8250/display
+4ab176b Add C2D_COLOR_FORMAT_420_P010 to C2D_YUV_FORMAT
+
+   * packages/apps/LineageParts
+414d466 Hide button settings from search
+
 ====================
      08-07-2020
 ====================
@@ -81,13 +81,4 @@ f90e549 Messaging: Fix quick reply choices on wearable devices
      08-06-2020
 ====================
 
-
-   * device/rr/sepolicy
-e5584b2 Allow platform_app to read boottime prop
-
-   * lineage/mirror
-1f2bcef Updated to 05-Aug-2020 14:16 UTC
-
-   * packages/apps/Dialer
-8c761e9 Dialer: Fix proto warning with optmize for lite
 
