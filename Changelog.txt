@@ -3,6 +3,37 @@ Resurrection Remix Q Ver 8.5.7 Changelog
 
 
 ====================
+     08-13-2020
+====================
+
+   * Add OTA Unofficial
+   
+   * Fix System Info
+   
+   * Fix System UI tuner
+
+   * external/pulse
+22a78f5 FadingBlockRenderer: fix Potential NPE on some devices
+
+   * frameworks/base
+15a979f2 Navbartile: Change longpress intent fragment [1/2]
+
+   * lineage/hudson
+13b00dd hudson: A5|7 2017 promotion!
+
+   * lineage/wiki
+bec8be8 wiki: Promote a5y17lte and a7y17lte to 17.1
+
+   * packages/apps/Settings
+84381a2 Rename FOD preference category
+
+   * packages/overlays/Resurrection
+b23761b Update GVM overlay
+
+   * vendor/rr
+db3e42a rr: bacon: changelog is already generated at the start of the build
+
+====================
      08-12-2020
 ====================
 
@@ -10,50 +41,35 @@ Resurrection Remix Q Ver 8.5.7 Changelog
    * android
 5c568a3 Update readme
 
-   * frameworks/base
-8615ae46 Revert "PowerMenu: Fix Advanced button position on low DPI"
-
    * lineage/contributors-cloud-generator
 a264670 Fix rebase derp
 
    * packages/apps/CustomDoze
 c3a82c4 Dont confuse the noobs. They don't know what it means
 
-   * packages/apps/Settings
-269657a Update resurrection_device_maintainers_strings.xml
-
-   * vendor/rr
-10effaa rr: allow exporting buildtype beforehand
-
 ====================
      08-11-2020
 ====================
 
 
-   * lineage/wiki
-6c63b52 wiki: Add Pixel 3/3 XL (blueline/crosshatch)
+   * packages/services/Telephony
+ddc7879 PhoneInterfaceManager: Force network to catch LTE on suspend state actions
 
 ====================
      08-10-2020
 ====================
 
 
-   * external/pulse
-3cf5ef5 Pulse: default to Fading blocks [1/2]
-
    * frameworks/native
 f7e13e8 touch response optimizations
-
-   * lineage/hudson
-14f1496 hudson: Ship Pixel 3/3 XL (blueline/crosshatch)
-
-   * packages/services/Telephony
-ddc7879 PhoneInterfaceManager: Force network to catch LTE on suspend state actions
 
 ====================
      08-09-2020
 ====================
 
+
+   * packages/apps/Messaging
+f90e549 Messaging: Fix quick reply choices on wearable devices
 
    * packages/apps/Updater
 3a44dc0 Only cancel notification if update isn't installed
@@ -69,16 +85,8 @@ ddc7879 PhoneInterfaceManager: Force network to catch LTE on suspend state actio
    * packages/apps/LineageParts
 414d466 Hide button settings from search
 
-   * packages/apps/Messaging
-f90e549 Messaging: Fix quick reply choices on wearable devices
-
 ====================
      08-07-2020
-====================
-
-
-====================
-     08-06-2020
 ====================
 
 
