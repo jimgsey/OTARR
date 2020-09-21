@@ -3,6 +3,279 @@ Resurrection Remix Q Ver 8.6.0 Changelog
 
 
 ====================
+     09-21-2020
+====================
+
+   * Fixed OTA 
+   
+   * frameworks/base
+c857e9f4 TypeClock it_IT Translation (#281)
+
+   * lineage/mirror
+79577ef Updated to 20-Sep-2020 17:39 UTC
+
+   * packages/apps/AudioFX
+f694fbf Automatic translation import
+
+   * packages/apps/CellBroadcastReceiver
+dcf0d4e Automatic translation import
+
+   * packages/apps/EmergencyInfo
+06696c7 Automatic translation import
+
+   * packages/apps/Etar
+2d2dd48 Automatic translation import
+
+   * packages/apps/Exchange
+975b705 Automatic translation import
+
+   * packages/apps/FlipFlap
+16f43b9 Automatic translation import
+
+   * packages/apps/Gallery2
+071d939 Automatic translation import
+
+   * packages/apps/HTMLViewer
+63b8ddd Automatic translation import
+
+   * packages/apps/Jelly
+4a7621e Automatic translation import
+
+   * packages/apps/ManagedProvisioning
+3d29769 Automatic translation import
+
+   * packages/apps/Nfc
+f882589 Automatic translation import
+
+   * packages/apps/Plugins
+f9eb5d3 AospPanel: Improve touch width
+
+   * packages/apps/Recorder
+dc12887 Automatic translation import
+
+   * packages/apps/SafetyRegulatoryInfo
+683eadc Automatic translation import
+
+   * packages/apps/Settings
+cc5f9c9 RRTools: make Nav category preference follow UI Radius
+
+   * packages/apps/Snap
+910787f Automatic translation import
+
+   * packages/apps/Terminal
+5e45ffa Automatic translation import
+
+   * packages/apps/Trebuchet
+fba0af5 Launcher3: categorize settings
+
+   * packages/apps/TvSettings
+9070f77 Automatic translation import
+
+   * packages/inputmethods/LatinIME
+459a560 Automatic translation import
+
+   * packages/overlays/Resurrection
+dcf0dbe overlays:Add 2 switch styles [2/4]
+
+   * packages/providers/ContactsProvider
+4a7b223 Automatic translation import
+
+   * packages/providers/DownloadProvider
+3a1a700 Automatic translation import
+
+   * packages/resources/devicesettings
+23ba1a9 Automatic translation import
+
+   * packages/wallpapers/LivePicker
+9e87e51 Automatic translation import
+
+   * vendor/rr
+f5bc738 vendor: Add 2 new switch styles [3/4]
+
+====================
+     09-20-2020
+====================
+
+
+   * build/make
+9ea3089 sign_target_apks: Replace update-payload-key.pub.pem in RECOVERY as well
+
+   * build/soong
+deeed77 Add support for macOS 11 SDK
+
+   * lineage/wiki
+d533b89 wiki: Assign page.title when device.codename is empty
+
+====================
+     09-19-2020
+====================
+
+
+   * fixed some error with lawnchair 
+
+   * frameworks/base
+0172d46e SystemUI: Hide non-system overlays when biometric prompt is showing
+
+   * frameworks/opt/telephony
+52bb845 Revert "Failed to show hold call when user click swap and merge simultaneously"
+
+   * packages/services/Telephony
+0086f66 Explicitly grant START_ACTIVITIES_FROM_BACKGROUND to com.android.phone.
+
+====================
+     09-18-2020
+====================
+
+   * Added 4K video in Youtube
+   
+   * frameworks/base
+ce9f4c98 QsFooter: Fix settings button overlapping on landscape mode when not expanded
+
+   * packages/apps/Settings
+e55a83e Default settings button position again in Qs panel
+
+   * packages/overlays/Resurrection
+7952acf overlays: Add 2 more brightness slider styles [2/3]
+
+   * packages/services/Telephony
+0086f66 Explicitly grant START_ACTIVITIES_FROM_BACKGROUND to com.android.phone.
+
+====================
+     09-17-2020
+====================
+
+   * fixed audio BT
+
+   * frameworks/base
+b823e956 VolumeDialog: Fix certain row icon scaling Also set proper margin on app volume row
+
+   * packages/apps/Settings
+8ba3d57 Update VPN footer string
+
+   * packages/apps/Trebuchet
+87d095d Trebuchet: optimization of searching apps in Chinese
+
+   * packages/overlays/Resurrection
+c8c0d3a overlays: Do not dex opt statusbar icon packs
+
+====================
+     09-16-2020
+====================
+
+   * Fixed smart charge
+
+   * frameworks/av
+d71df10 JAudioTrack: fix bitwise evaluation
+
+   * frameworks/base
+8b5ba470 QSFooter: Change default settings button position [1/2]
+
+   * packages/apps/CustomDoze
+107badb AOD: check for default overlay before setting default value
+
+   * packages/apps/Settings
+328ef3a RRtools Qs Settings: put dependency on expand arrow
+====================
+     09-14-2020
+====================
+
+    * Change to hmp tree (I recommend clean flash)
+    
+    * Kernel 4.4.236-HMP-SDM660-LA.UM.8.2.r2-02500+#1 Mon Sep 14 10:58:54 CEST 2020
+    
+====================
+     09-13-2020
+====================
+
+
+   * frameworks/base
+4235562a Automatic translation import
+
+   * lineage/crowdin
+a91dc88 crowdin_sync: Allow specifying an owner of the commits to submit
+
+   * packages/apps/Plugins
+9c1d4f2 Extend App volume slider to plugins
+
+   * packages/inputmethods/LatinIME
+724c507 LatinIME: Move keyboard height setting from debug to advanced
+
+====================
+     09-12-2020
+====================
+
+   * Update kernel to 4.4.235
+   
+   * android
+e2108d0 readme:Update FOD-ext commit
+
+   * frameworks/base
+59410fd1 fixup - base: do not use new lockscreen layout for bypass
+
+   * packages/apps/Camera2
+3679c8c Automatic translation import
+
+   * packages/apps/Eleven
+5937b1e Automatic translation import
+
+   * packages/apps/Etar
+f2e6416 Automatic translation import
+
+   * packages/apps/Gallery2
+2777413 Automatic translation import
+
+   * packages/apps/Jelly
+cc8a1e9 Automatic translation import
+
+   * packages/apps/Recorder
+767fd3b Automatic translation import
+
+   * packages/apps/Settings
+b85a701 fixup!Maintainers fragment mess
+
+   * packages/apps/Snap
+972ac98 Automatic translation import
+
+   * packages/apps/Trebuchet
+ce2eeb4 Automatic translation import
+
+   * packages/apps/TvSettings
+fbbe74b Automatic translation import
+
+   * packages/inputmethods/LatinIME
+7ae7f65 Automatic translation import
+
+   * packages/resources/devicesettings
+ce90d23 Automatic translation import
+
+   * packages/services/BuiltInPrintService
+ce69440 Automatic translation import
+
+====================
+     09-11-2020
+====================
+
+
+    * Added Lawnchair v2.1-2627. Now you could choose your launchair.
+   
+   * Change kernel to 4.4.234-EAS_PELT-SDM660-LA.UM.8.2.r2-02500#2 Fri Sep 11 10:04:31 CEST 2020
+
+   * device/lineage/atv
+076ade1 Enable bluetooth remote pairing in Setupwraith
+
+   * hardware/lineage/interfaces
+ef6609c gnss-legacy: Bring back Beidou
+
+   * lineage/crowdin
+53cdc08 crowdin: fix _COMMITS_CREATED references
+
+   * packages/overlays/Resurrection
+32c8daf Add Gradient brightness slider styles [1/2]
+
+   * vendor/rr
+099d882 Add brightness slider themes [3/4]
+
+====================
      09-10-2020
 ====================
 
