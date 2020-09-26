@@ -1,10 +1,72 @@
 
-Resurrection Remix Q Ver 8.6.0 Changelog
+Resurrection Remix Q Ver 8.6.1 Changelog
 
+
+====================
+     09-26-2020
+====================
+
+   * OTA
+   
+   * frameworks/base
+604a6ea6 core: Move context-aware Bluetooth airplane mode string for translations
+
+   * packages/apps/Settings
+0b4fcdb Update device_maintainers_fragment.xml
+
+====================
+     09-25-2020
+====================
+
+    * packages/apps/Settings
+c8a1a01 Fix shamu maintainer (#1234)
+
+====================
+     09-24-2020
+====================
+
+
+   * android
+e070c7b Readme:  fix derp
+
+   * hardware/qcom-caf/msm8960/display
+41b6123 Revert "Don't force GPU composite for older devices"
+
+====================
+     09-23-2020
+====================
+
+
+   * device/rr/sepolicy
+bae5a63 selinux: Introduce Applock [3/3]
+
+   * packages/apps/TvSettings
+2558f48 Add rooted development option
+
+====================
+     09-22-2020
+====================
+
+
+   * lineage/hudson
+378368e hudson: Add Redmi Note 8 / 8T (ginkgo)
+
+   * lineage/mirror
+14c1faa Updated to 21-Sep-2020 12:48 UTC
+
+   * lineage/wiki
+b5b0f97 wiki: devices: Require 10 on dynamic retrofit Pixel devices
+
+   * packages/apps/Plugins
+d84321b Plugins: Add Volume panel enter animations [3/3]
+
+   * packages/overlays/Resurrection
+7f74990 Resize an FOD icon
 
 ====================
      09-21-2020
 ====================
+
 
    * Fixed OTA 
    
