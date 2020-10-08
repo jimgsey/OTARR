@@ -1,5 +1,251 @@
 
-Resurrection Remix Q Ver 8.6.1 Changelog
+Resurrection Remix Q Ver 8.6.2 Changelog
+
+
+====================
+     10-08-2020
+====================
+
+   * October Patch Security 
+   
+   * Update kernel to 4.4.238
+   
+   * build/make
+58fa8ce backuptool: do not unmap dynamic partition after finished
+
+   * frameworks/base
+317243e6 base: Fix lockscreen weather default value[2/2]
+
+   * lineage/hudson
+64f04c0 Revert "hudson: Drop S4 Sprint (jfltespr)"
+
+   * lineage/wiki
+611cf7c Revert "wiki: devices: jfltespr: Reflect discontinuation of builds"
+
+   * packages/apps/Settings
+bae5ec8 RRTools: fix running services icon inverted summary
+
+====================
+     10-07-2020
+====================
+
+   * Added dirac
+   
+   * Remove QuickstepSwitcher 
+   
+   * Fixed problem with Lawnchair
+   
+   * frameworks/base
+317243e6 base: Fix lockscreen weather default value[2/2]
+
+   * lineage/wiki
+ccb5968 wiki: Add davinci
+
+   * packages/apps/Messaging
+e68c375 strings: Move diss to rr_strings
+
+   * packages/apps/Settings
+16d55d0 RRtools: Fix lockscreen weather default values [1/2]
+
+   * vendor/rr
+473b532 Bump version number [1/2]
+
+====================
+     10-06-2020
+====================
+
+
+   * frameworks/base
+280e28b3 FODAnimation: Add samsung internet to animation blacklist
+
+   * lineage/mirror
+10e72d4 Updated lineage-minimal to 05-Oct-2020 00:50 UTC
+
+   * packages/apps/Dialer
+be28ef3 CallLogFargment: Move Unregistering call log observer to the correct place
+
+====================
+     10-04-2020
+====================
+
+
+   * packages/apps/Settings
+1862a16 Add Samsung Galaxy J6+ to Official list (#1242)
+
+====================
+     10-03-2020
+====================
+
+
+   * android
+b0a95c9 Update fod-ext commit
+
+====================
+     10-02-2020
+====================
+
+   * Fix error with mic (assistant)
+   
+   * android
+bbcaefe README: update fod-ext commit
+
+   * frameworks/base
+b17a527d FODCircleView: Handle more animation visibilty cases
+
+   * lineage/wiki
+8402877 Adding chil360 as osprey maintainer
+
+   * packages/apps/Settings
+1df42fe RRtools:Use a better summary for slim recents
+
+====================
+     10-01-2020
+====================
+
+   * Fix Spanish strings
+   
+   * device/rr/sepolicy
+b7bf057 common: Remove no longer needed uncrypt rule
+
+   * lineage/hudson
+630f561 hudson: Add davinci
+
+   * packages/apps/AudioFX
+887ee80 Automatic translation import
+
+   * packages/apps/Bluetooth
+56b4c58 Automatic translation import
+
+   * packages/apps/Camera2
+f96f302 Automatic translation import
+
+   * packages/apps/CellBroadcastReceiver
+75067ed Automatic translation import
+
+   * packages/apps/CertInstaller
+af3289a Automatic translation import
+
+   * packages/apps/Contacts
+d986266 Automatic translation import
+
+   * packages/apps/Dialer
+e19c2c0 Dialer: Fix call log refresh post call
+
+   * packages/apps/Email
+66c6d3f Automatic translation import
+
+   * packages/apps/Etar
+15e694a Automatic translation import
+
+   * packages/apps/ExactCalculator
+f23a2c2 Automatic translation import
+
+   * packages/apps/Gallery2
+3e48055 Automatic translation import
+
+   * packages/apps/HTMLViewer
+15fa6be Automatic translation import
+
+   * packages/apps/KeyChain
+f56649e Automatic translation import
+
+   * packages/apps/ManagedProvisioning
+1d0d7d7 Automatic translation import
+
+   * packages/apps/Messaging
+e4d0502 Messaging: Add Read later option instead of duplicate " Reply via sms"
+
+   * packages/apps/PhoneCommon
+ad41fb0 Automatic translation import
+
+   * packages/apps/RRWallpapers
+c1cfe61 Add RR nougat red
+
+   * packages/apps/Settings
+2602066 update lavender maintainer
+
+   * packages/apps/Tag
+1b66b0b Automatic translation import
+
+   * system/netd
+24618f3 netd: Support wildcards in cached hosts file
+
+   * system/sepolicy
+2c975b5 Fix sepolicy_tests on Mac 10.15
+
+====================
+     09-30-2020
+====================
+
+   * Kernel HALCYON-HMP-LA.UM.8.2.r2-02500
+   
+   * Added translation into Spanish
+
+   * frameworks/base
+a7c9428c FODAnimation: Add dashlane to blacklist animation
+
+   * lineage/hudson
+91f115c Regenerate device dependency mappings
+
+   * packages/apps/Contacts
+d80785c Contacts: Fix light dropdown lists on dark theme
+
+   * packages/apps/Settings
+789d854 Update FOD anim string
+
+====================
+     09-29-2020
+====================
+
+   * Fix error with audio
+   
+   * android
+43078ba track RR wallpapers
+
+   * frameworks/base
+d668859b base: Add ability to set custom image in Settings spacer [1/2]
+
+   * hardware/qcom-caf/msm8974/media
+f4c68e8 mm-video: remove hevc sw decoder files
+
+   * lineage/mirror
+b73478c Updated to 29-Sep-2020 04:55 UTC
+
+   * packages/apps/RRWallpapers
+9bd7d3c RRWallpapers: kill holo and use cardview
+
+   * packages/apps/Settings
+4454685 Edit a string
+
+   * vendor/rr
+778ce7f Optionally build RR wallpapers
+
+====================
+     09-28-2020
+====================
+
+
+   * frameworks/base
+7d87e942 NotificationMediaManager: Change default blur radius for media [1/2]
+
+   * lineage/mirror
+8e49765 Updated aosp-minimal to 27-Sep-2020 22:18 UTC
+
+   * lineage/wiki
+ea0b773 wiki: devices: Zangya/Zangya Pro are A/B devices.
+
+   * packages/apps/Settings
+3b0a7ab LS Media: change default blur radius for media [1/2]
+
+   * packages/overlays/Resurrection
+2120021 Overlays: Analog clock sizes [2/4]
+
+   * vendor/rr
+dede976 vendor: Analog Clock sizes [1/4]
+
+====================
+     09-27-2020
+====================
 
 
 ====================
