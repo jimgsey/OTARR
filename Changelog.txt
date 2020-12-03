@@ -1,5 +1,332 @@
+Resurrection Remix Q Ver 8.6.4 Changelog
 
-Resurrection Remix Q Ver 8.6.2 Changelog
+====================
+     12-03-2020
+====================
+    
+   * DeviceParts: add Pill-notch
+   
+   * DeviceParts: White and Yellow torch
+    
+   * DeviceParts: add gif and link info
+   
+   * DeviceParts: add gif in slean speaker
+    
+   * DeviceParts: add gif in ambient settings
+   
+   * Fix error with record call
+    
+   * Sync repo
+   
+
+====================
+     11-02-2020
+====================
+
+   * Rearrange DeviceParts
+    
+   * DeviceParts: add more RU translation
+   
+   * frameworks/base
+9c16d2c4 QSB: Redirect dateview to calender view
+
+   * packages/apps/Plugins
+4acd6c4 MIUIPanel: Fix notification stream
+
+====================
+     11-01-2020
+====================
+
+
+   * android
+c432b5c manifest: Add default gitlab remote (#150)
+
+   * packages/apps/Eleven
+164b27e Automatic translation import
+
+   * packages/apps/Etar
+ad81d36 Automatic translation import
+
+   * packages/apps/Recorder
+da8b2d5 Automatic translation import
+
+   * packages/apps/Snap
+c0f948c Automatic translation import
+
+   * packages/apps/Trebuchet
+d360b16 Automatic translation import
+
+   * packages/inputmethods/LatinIME
+921a67e Automatic translation import
+
+   * packages/resources/devicesettings
+dd1873e Automatic translation import
+
+   * packages/services/BuiltInPrintService
+0700616 Automatic translation import
+
+====================
+     10-31-2020
+====================
+
+   
+   * DeviceParts: Added: TCP Congestion
+ 
+   * DeviceParts: Added: Low Memory Killer
+ 
+   * DeviceParts: Added: MSM Thermal: Core control, VDD Retriction 
+ 
+   * lineage/charter
+c6252b9 charter: Remove exception from hardware codecs for Tegra devices
+
+   * lineage/mirror
+e7fa4ba Updated to 31-Oct-2020 13:37 UTC
+
+   * lineage/wiki
+449cb49 devices: pro1: Promote to 17.1
+
+====================
+     10-30-2020
+====================
+
+
+   * packages/apps/CustomDoze
+4db8917 Merge pull request #1 from K0rtus/Q
+
+   * packages/apps/LineageParts
+ce148ef Merge pull request #2 from K0rtus/patch-1
+
+====================
+     10-23-2020
+====================
+   * DeviceParts: Added: Clean Speaker
+   
+   * DeviceParts: Fixed: Fast Charger (now you can uncheck)
+   
+   * Update kernel 4.4.240: Predatos Stormbreaker 9.0 rc 3
+   
+   * lineage/wiki
+1dec518 wiki: Simplify adding a PATH variable on Windows 10
+
+   * packages/apps/Settings Revert "Added translation and bug fixes translation Ru (#1254)"
+923d806245 Added translation and bug fixes translation Ru (#1254)
+c7312f63a3 Add ulysse to Official list (#1253)
+
+====================
+     10-22-2020
+====================
+
+   * Added Hosts (no more ads in your apps or browser)
+   
+   * lineage/wiki
+98fc44e wiki: 10 > 10.0
+
+====================
+     10-21-2020
+====================
+
+
+   * build/make
+dcdcc73 Patch hosts to adaway
+
+   * packages/apps/Settings
+4c4e6fa Fix build
+
+   * tools/repohooks
+239625c Add support for automatic fixups to gofmt.
+
+====================
+     10-20-2020
+====================
+
+   * Kernel: Added 4.4.239 Predator Stormbreaker 8.9 Stable
+   
+   * frameworks/base
+c9e300ec VolumeDialog: Follow system theme background
+
+   * lineage/wiki
+e335c80 devices: pro1: Fix kernel repo name
+
+   * packages/apps/Settings
+76ed196 Revert "Added missing translation RU (#1248)"
+0922338 Added missing translation RU (#1248)
+
+   * packages/apps/SettingsIntelligence
+2c34338 Allow to disable in fragment search bar bg tint [3/3]
+
+   * packages/overlays/Resurrection
+abce78b overlays: Update pitchblack overlay for volume dialog
+
+====================
+     10-19-2020
+====================
+
+
+   * system/core
+a11b2c2 Modifying /dev/memcg permissions.
+
+   * vendor/rr
+d2bccdb vendor: More searchbar styles [2/4]
+
+====================
+     10-18-2020
+====================
+
+
+   * packages/apps/Trebuchet
+af65ef3 Revert "Provider: Initialize createEmptyRowOnFirstScreen without QSB"
+
+====================
+     10-17-2020
+====================
+
+
+   * lineage/mirror
+69d4251 Updated aosp-minimal to 17-Oct-2020 12:01 UTC
+
+   * packages/apps/TvSettings
+1337f96 Settings: Replace local string res with the ones from the SDK
+
+====================
+     10-16-2020
+
+   * DeviceParts: Added Fast Charger USB
+   
+   * DeviceParts: Added Backlight Dimmer
+   
+   * DeviceParts: Added Earpiece gain
+    
+   * frameworks/base
+d985b1d6 Fix Google dialer FC due to missing permissions
+
+   * lineage/mirror
+d6f88f8 Updated aosp-minimal to 16-Oct-2020 12:01 UTC
+
+   * packages/apps/LineageParts
+46c7272 Parts: allow single tap doze to work without depending on ambient display
+
+   * packages/apps/Settings
+5895de9 Fix build
+
+   * packages/services/OmniJaws
+207e10b Omnijaws: widget: Uncouple the temperature from the image
+
+====================
+     10-15-2020
+====================
+
+   * DeviceParts: added Torch settings
+   
+   * frameworks/base
+86f54e15 SystemUI: fix gaming-mode tile failed to action on/off itself (#288)
+
+   * lineage/mirror
+f8d0a3f Updated aosp-minimal to 15-Oct-2020 12:01 UTC
+
+   * packages/apps/Etar
+7cfefcd Automatic translation import
+
+   * packages/apps/Messaging
+e657521 Messaging: Enable heads up by default
+
+   * packages/apps/Nfc
+3b393bf Automatic translation import
+
+   * packages/apps/Settings
+f510f44 RR tools: separate applying systemui and settings icons from RR themes [2/2]
+
+   * packages/apps/Stk
+7fc8734 Automatic translation import
+
+   * packages/apps/Trebuchet
+1f8713c Automatic translation import
+
+   * packages/apps/TvSettings
+d4b71c5 Automatic translation import
+
+   * packages/inputmethods/LatinIME
+e1cf711 Automatic translation import
+
+   * packages/screensavers/Basic
+526d626 Automatic translation import
+
+   * packages/screensavers/PhotoTable
+b87fd51 Automatic translation import
+
+   * packages/wallpapers/LivePicker
+5b6b44c Automatic translation import
+
+   * vendor/rr
+0030a08 Delete readme
+
+====================
+     10-14-2020
+====================
+   
+   * Changed to 230 in Tianma burn-in display
+   
+   * packages/apps/LineageParts
+5db40cb LineageParts: Add some icons
+
+   * packages/overlays/Resurrection
+2ba1cdf overlays: Stock Volume dialog tint styles [2/4]
+
+====================
+     10-13-2020
+====================
+
+   * Changed custom Tianma burn-in display
+   
+   * frameworks/base
+e447564c [DO NOT MERGE] VibratorService: bypass AppOps check
+
+   * packages/apps/PermissionController
+fd02eec PermissionController: force the hub
+
+   * packages/apps/Plugins
+42bb613 Plugins: Fix app icon sizes
+
+   * packages/apps/Settings
+bc9254d BatteryMeterView: Fix issue with DPI
+
+====================
+     10-12-2020
+====================
+
+   * Add custom Tianma burn-in display
+   
+   * Rewrite dirac and amplify sound
+   
+   * frameworks/base
+87975e66 QS: change some default tiles again
+
+   * packages/apps/LineageParts
+d38a840 Add icon to wake gesture
+
+   * packages/apps/Settings
+fb30ddc rr_strings: Update FOD animation string
+
+====================
+     10-11-2020
+====================
+
+
+   * lineage/mirror
+41e2cc8 Updated aosp-minimal to 10-Oct-2020 12:01 UTC
+
+====================
+     10-10-2020
+====================
+
+
+   * device/rr/sepolicy
+d58d677 sepolicy: Introduce automated DC Dimming
+
+   * lineage/hudson
+0c6dab3 updater: Fix broken json
+
+   * lineage/wiki
+0eef5a8 wiki: Add Nokia 6.1 (PL2)
 
 
 ====================
