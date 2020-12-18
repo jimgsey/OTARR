@@ -1,4 +1,159 @@
-Resurrection Remix Q Ver 8.6.4 Changelog
+
+Resurrection Remix Q Ver 8.6.5 Changelog
+
+
+====================
+     12-16-2020
+====================
+
+
+   * build/make
+4faf6293b Patch hosts to adaway
+
+   * lineage/mirror
+b421d0f Updated aosp-minimal to 16-Dec-2020 13:01 UTC
+
+   * packages/apps/Settings
+c7af6e0969 Add spanish
+
+====================
+     12-15-2020
+====================
+
+
+   * lineage/mirror
+6f597a9 Updated to 15-Dec-2020 13:11 UTC
+9240572 Updated lineage-minimal to 15-Dec-2020 13:02 UTC
+cfcbbb1 Updated to 15-Dec-2020 13:01 UTC
+
+   * packages/apps/AudioFX
+277a395 Automatic translation import
+
+   * packages/apps/Eleven
+8a39cbb Automatic translation import
+
+   * packages/apps/Etar
+1606ddaf Automatic translation import
+
+   * packages/apps/Jelly
+926e6f0 Automatic translation import
+
+   * packages/apps/Recorder
+c7dd05a Automatic translation import
+
+   * packages/apps/Settings
+080fa7e424 Fix Derp to kenzo device (#1284)
+dc768e30be Add device redmi note 3pro (kenzo) (#1283)
+
+   * packages/apps/Snap
+37830fdab Automatic translation import
+
+   * packages/inputmethods/LatinIME
+787eeccc9 Automatic translation import
+
+   * packages/resources/devicesettings
+abe38e3 Automatic translation import
+
+   * packages/services/BuiltInPrintService
+14aa36a Automatic translation import
+
+   * vendor/qcom/opensource/fm-commonsys
+b258ea1 Automatic translation import
+
+====================
+     12-14-2020
+====================
+
+
+   * frameworks/base
+f9fba280c3f Update Greek translations (#294)
+
+   * lineage/mirror
+45f0dae Updated to 14-Dec-2020 16:02 UTC
+
+   * lineage/wiki
+ca6bc32 devices: klteactivexx: We don't support the AT&T varaint
+8776c6f devices: flo: State that 17.1 and beyond codename is now flox
+
+====================
+     12-13-2020
+====================
+
+
+   * lineage/mirror
+0c24537 Updated to 13-Dec-2020 13:01 UTC
+
+   * packages/apps/Settings
+14f917ecce packages_apps_settings: Update Greek translations (#1280)
+
+====================
+     12-12-2020
+====================
+
+
+====================
+     12-11-2020
+====================
+
+
+   * external/chromium-webview
+33ab33d Update Chromium Webview to 87.0.4280.101
+
+   * lineage/mirror
+e5a9d33 Updated aosp-minimal to 11-Dec-2020 13:01 UTC
+
+   * lineage/wiki
+7c6d2f5 wiki: Add Nexus 7 2013 Wi-Fi Repartitioned (flox)
+
+   * vendor/qcom/opensource/commonsys/system/bt
+2bf7a014b Fix a security issue in sdp_server.cc
+
+====================
+     12-10-2020
+====================
+
+
+   * android
+466cd39 Track our own fork(s) for 2020-12 ASB patching
+
+   * build/make
+89a22e4cc Bump to December 2020 security patch
+
+   * device/rr/sepolicy
+ebca133 Revert "sepolicy: private: Address denial for untrusted_app"
+
+   * external/libaom
+d14eec3 cherry-pick 0a0368368 Check the conformance requirements in Sec. 6.8.1.
+
+   * frameworks/av
+a8b6af7c8 Move an orphaned analytics reference under a mutex
+
+   * frameworks/base
+fa894e221fa Fix storing the wrong value of mLockdown in setting
+b2ecac584f4 [DO NOT MERGE][BACKPORT]Improve location checks in TelephonyRegistry
+49aeebf01f9 Make WallpaperMS bind wallpaper component PendingIntent immutable.
+
+   * frameworks/native
+7e87571da Backport: Update the documentation of ANDROID_RESOLV_NO_CACHE_STORE
+
+   * frameworks/opt/net/wifi
+9c0b6e7ed WifiConfigManager: protect CONFIGURED_NETWORKS_CHANGED_ACTION with permissions
+
+   * lineage/mirror
+a9d0a89 Updated aosp-minimal to 10-Dec-2020 13:01 UTC
+
+   * lineage/scripts
+550c7d8 Update default webview to 87.0.4280.101
+
+   * system/bt
+cf141c0c0 Fix a security issue in sdp_server.cc
+a42e27e4f Check Classic key before cross-key derivation
+
+   * system/netd
+a922631b Backport: Fix the side channel attack by using async DnsResolver API with FLAG_NO_CACHE_STORE
+
+   * vendor/qcom/opensource/commonsys/system/bt
+38539a4df Check Classic key before cross-key derivation
 
 ====================
      12-03-2020
